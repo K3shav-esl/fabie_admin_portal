@@ -10,6 +10,12 @@ import {
   Link
 } from "react-router-dom";
 import GraphPage from './screens/GraphPage/GraphPage';
+import AddTemplate from './screens/AddTemplate/AddTemplate';
+import Customers from './screens/Customers.js/Customers';
+
+
+
+
 function App() {
   return (
     <>
@@ -17,6 +23,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Login />} />
           <Route path='/analytics' element={<GraphPage />}/>
+          <Route path='/add-template' element={<AddTemplate />}/>
+          <Route path='/customers' element={<Customers />} />
       </Routes>
       </Router>
     </>

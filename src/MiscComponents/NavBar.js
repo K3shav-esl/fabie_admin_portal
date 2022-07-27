@@ -4,7 +4,7 @@ import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Container } from '@mui/system';
 import { Box, TextField } from '@mui/material';
-import AdminImg from '../assets/Avatar.png'
+import AdminImg from '../assets/Avatar1.png'
 
 function NavBar() {
     return (
