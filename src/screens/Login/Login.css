@@ -1,0 +1,17 @@
+.mainBg{
+    background-image: linear-gradient(to bottom, #D6A2F4, #FFFFFF);
+    height: 100vh;
+}
+
+.circleBg{
+    background-image: url('../../assets/circlebg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.formBg{
+    background-color: #faf0f476;
+    backdrop-filter: blur(5px);
+}
+

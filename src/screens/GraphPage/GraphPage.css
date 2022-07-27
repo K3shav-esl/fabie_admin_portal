@@ -1,0 +1,13 @@
+.leftCol{
+    background-image: linear-gradient(to bottom, #EFD9FA,#D6A2F4);
+
+}
+
+.rightCol{
+    background-color: #FDEEF2;
+}
+
+#searchInput:active, #searchInput:focus{
+    border: none !important;
+    outline: none !important;
+}
