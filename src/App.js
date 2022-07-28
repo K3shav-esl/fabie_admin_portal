@@ -13,6 +13,8 @@ import GraphPage from './screens/GraphPage/GraphPage';
 import AddTemplate from './screens/AddTemplate/AddTemplate';
 import Customers from './screens/Customers/Customers';
 import UploadFile from './screens/UploadFile/UploadFile';
+import NewCategory from './screens/NewCategory/NewCategory';
+import SelectTemplate from './screens/SelectTemplate/SelectTemplate';
 
 
 
@@ -27,6 +29,8 @@ function App() {
           <Route path='/add-template' element={<AddTemplate />}/>
           <Route path='/customers' element={<Customers />} />
           <Route path='/upload' element={<UploadFile />} />
+          <Route path='/new-category' element={<NewCategory />} />
+          <Route path='/select-template' element={<SelectTemplate />} />
       </Routes>
       </Router>
     </>

@@ -5,12 +5,12 @@ export default function UploadFile() {
     return (
         <>
             <BasePage>
-                <Box style={{backgroundColor:'white', width:'90%', height:"70vh", padding:'1.5rem 1.5rem', margin:"2.5rem auto"}}>
-                    <Box style={{fontSize:'1.5rem', color:'#4D4F5C'}}>
+                <Box style={{ backgroundColor: 'white', width: '90%', height: "80vh", padding: '1.5rem 1.5rem', margin: "2.5rem auto", borderRadius: "2px" }}>
+                    <Box style={{ fontSize: '1.5rem', color: '#4D4F5C' }}>
                         Upload
                     </Box>
-                    <Box>
-
+                    <Box style={{backgroundColor:""}}>
+                        <input type="file" name="" id="" />
                     </Box>
                 </Box>
             </BasePage>
