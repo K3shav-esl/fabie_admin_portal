@@ -15,11 +15,16 @@ import Customers from './screens/Customers/Customers';
 import UploadFile from './screens/UploadFile/UploadFile';
 import NewCategory from './screens/NewCategory/NewCategory';
 import SelectTemplate from './screens/SelectTemplate/SelectTemplate';
+import Invoice from './screens/Invoice/Invoice';
+import CustomTemplate from './screens/CustomTemplate/CustomTemplate';
 
 
 
 
 function App() {
+  const onFileChange = (files) =>{
+    console.log(files)
+  }
   return (
     <>
       <Router>
@@ -28,13 +33,16 @@ function App() {
           <Route path='/analytics' element={<GraphPage />}/>
           <Route path='/add-template' element={<AddTemplate />}/>
           <Route path='/customers' element={<Customers />} />
-          <Route path='/upload' element={<UploadFile />} />
+          <Route path='/upload' element={<UploadFile onFileChange={(files) => onFileChange(files)}/>} />
           <Route path='/new-category' element={<NewCategory />} />
           <Route path='/select-template' element={<SelectTemplate />} />
+          <Route path='/invoice' element={<Invoice />} />          
+          <Route path='/customize' element={<CustomTemplate />} />          
       </Routes>
       </Router>
     </>
   );
 }
+
 
 export default App;

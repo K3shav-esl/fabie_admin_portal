@@ -2,6 +2,8 @@ import { Box, Button } from '@mui/material'
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import BasePage from '../../MiscComponents/BasePage'
+import Image9 from '../../assets/Image9.png'
+import Image3 from "../../assets/Image3.png"
 
 export default function SelectTemplate() {
     return (
@@ -62,8 +64,13 @@ export default function SelectTemplate() {
                                     </Box>
                                 </Box>
                             </Col>
-                            <Col className='d-flex align-items-center flex-column justify-content-between h-100 mt-4'>
-
+                            <Col md={9} className='d-flex align-items-center justify-content-center h-100 mt-4 pb-4'>
+                                <Box className='w-50 text-center' style={{backgroundColor:"#F2F2F2", height:"32rem"}}>
+                                    <img className='img-fluid w-75' src={Image9} alt="" />
+                                </Box>
+                                <Box className='w-50 h-100 text-center'>
+                                    <img className='img-fluid w-75' src={Image3} alt="" />
+                                </Box>
                             </Col>
                         </Row>
                     </Box>
